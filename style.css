@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 35px 35px;
+    gap: 8px;
+}
+.nav h3{
+    background-color: black;
+    color: white;
+    padding: 17px 23px;
+    font-size: 20px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+}
+.intro{
+    height: 74%;
+    width: 100%;
+    /*background-color: bisque;*/
+    padding:60px 60px 0px 60px;
+}
+.intro h1{
+    font-size: 135px;
+    letter-spacing: -5px;
+    line-height: 140px;
+    
+}
+.place{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-top:15px;
+}
+.place h3,.place h4{
+    font-size: 28px;
+    font-weight: 550;
+    padding: 0px 0px 100px 0px;
+}
+.hero-image{
+    height: 90%;
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-1600.webp);
+    background-size: cover;
+}
+.about{
+    height:100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 56px;
+}
+.about h2{
+    width: 64%;
+    font-size: 80px;
+    height: 100%;
+    line-height: 80px;
+    letter-spacing: -1px;
+  
+    padding: 0px 70px 0px 10px;
+}
+.about-part2{
+    width:35%;
+    height: 100%;
+    padding: 0px 20px 15px 60px;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-part2 h3{
+    font-size: 28px;
+    font-weight: 600;
+    padding: 0px 0px 0px 0px;
+}
+.icons i{
+     background-color: black;
+     color: white;
+     padding: 16px;
+     border-radius: 50px; 
+}
+
+.work{
+    height: 100%;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    padding: 66px;
+    
+   
+}
+.work1{
+    width:35%;
+    border-right: 2px solid black; 
+    display: flex ;
+    justify-content: space-between;
+    padding-right: 50px;
+
+}
+.work1 h3{
+    font-size: 26px;
+    font-weight: 600;
+}
+.work1 i{
+    font-size: 38px;
+}
+.work2{
+    width: 65%;
+    padding: 0px 60px;
+    
+}
+.work2-part{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*padding: 0px 0px 50px 0px;*/
+    
+}
+.work2-part:nth-child(1){
+    border-bottom: 2px solid black;
+      padding: 0px 0px 50px 0px;
+}
+.work2-part:nth-child(2){
+    
+      padding: 50px 0px 0px 0px;
+}
+
+.work2-part .elem{
+    width: 50%;
+    height: 100%;
+   
+
+}
+.work2-part .elem:nth-child(1){
+    border-right: 2px solid black;
+    padding-top: -100px;
+    padding-right: 60px;
+    padding-bottom: 0px;
+    
+}
+.work2-part .elem:nth-child(2){
+    padding-left: 50px;
+    padding-right: 10px;
+}
+.work2-part .elem h4{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.work2-part .elem p{
+    font-size: 18px;
+    color: rgb(82, 82, 82);
+    line-height: 30px;
+}
+.carousel {
+    width: 100%;
+    height: 40vh; /* Adjust as needed */
+    overflow-x: scroll;
+    display: flex;
+}
+
+.work-slide {
+    width: 100vw; /* Adjust as needed */
+    font-size: 150px;
+    text-align: center;
+    margin-right: 30px;
+}
+.pic{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad0d8364135d4087b9c8_project-01-p-1600.webp);
+}
+.Design{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: px;
+}
+.leftcamera{
+    width: 50%;
+    padding: 50px;
+}
+.rightcamera{
+    width: 50%;
+    padding: 50px 110px;
+    
+}
+.leftcamera h4{
+    font-size: 140px;
+}
+.rightcamera p{
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(82, 82, 82);
+
+
+}
+.box{
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    gap: 8px;
+    
+}
+.box h3{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.bent{
+    height: 80%;
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad129d3885d86c115c7f_project-02-p-1600.webp);
+    background-size: cover;
+}
+.Noise{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: px;
+}
+.leftnoise{
+    width: 50%;
+    padding: 50px;
+}
+.rightnoise{
+    width: 50%;
+    padding: 50px 110px;
+    
+}
+.leftnoise h4{
+    font-size: 140px;
+}
+.rightnoise p{
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(82, 82, 82);
+
+
+}
+.box{
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    gap: 8px;
+    
+}
+.box h3{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.Glove{
+    height: 80%;
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad1988b7ca338942d0b3_project-03-p-1600.webp);
+    background-size: cover;
+}
+.client{
+    height: 100%;
+    width: 100%;
+    border-top: 2px solid black;
+    display: flex;
+    padding: 66px;
+      
+}
+.client1{
+    height: 100%;
+    width:35%;
+    border-right: 2px solid black; 
+    display: flex ;
+    justify-content: space-between;
+    padding-right: 50px;
+
+}
+.client1 h3{
+    font-size: 26px;
+    font-weight: 600;
+}
+.client1 i{
+    font-size: 38px;
+}
+.client2{
+    height: 100%;
+    width: 65%;
+    padding: 0px 60px;
+    
+}
+.client2-part{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*padding: 0px 0px 50px 0px;*/
+    
+}
+.client2-part:nth-child(1){
+    border-bottom: 2px solid black;
+      padding: 0px 0px 50px 0px;
+}
+.client2-part:nth-child(2){
+    
+      padding: 50px 0px 0px 0px;
+      
+}
+
+.client2-part .elem{
+    width: 50%;
+    height: 100%;
+   
+
+}
+.client2-part .elem:nth-child(1){
+    border-right: 2px solid black;
+    padding-top: -100px;
+    padding-right: 60px;
+    padding-bottom: 0px;
+    
+    
+}
+.client2-part .elem:nth-child(2){
+    padding-left: 60px;
+    padding-right: 10px;
+   
+}
+.client2-part .elem h4{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.client2-part .elem p{
+    font-size: 18px;
+    color: rgb(82, 82, 82);
+    line-height: 30px;
+}
+.footer{
+    background-color: black;
+}
+]
